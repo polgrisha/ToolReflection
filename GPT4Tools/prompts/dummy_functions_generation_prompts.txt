@@ -1,0 +1,10 @@
+You are provided with the list of functions and the list of calls. Your task is to 
+write python functions that will be executed by provided calls.
+These functions should have the same signature as the calls. The functions should 
+not do anything, but check if the parameters have correct types. If the parameters
+are wrong, throw an error.
+Write code of the functions only.
+Functions should be separated by 
+'#######################################'
+Do not wrap python code into ```  brackets
+Function names and descriptions: {descriptions}

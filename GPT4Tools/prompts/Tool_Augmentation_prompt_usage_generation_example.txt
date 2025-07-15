@@ -1,0 +1,18 @@
+Try to come up with new tools and their descriptions. Each tool description should 
+follow the format “Tool Name: usage scenario. Parameter descriptions” 
+1. Speech Recognition: useful when you want to recognize speech from a microphone 
+or audio file. The input to this tool should be an audio file path or a microphone 
+input. 
+2. Object Tracking in Image: useful when you want to track the position of an object 
+in an image across multiple frames. The input to this tool should be a string, 
+representing the path of the image file sequence. 
+3. Audio Speed Changer: useful when you want to change the speed of an audio file. 
+The input to this tool should be a string, representing the path of the audio file, 
+and another string, representing the new speed. 
+4. Video Editing: useful when you want to edit a video by trimming, cropping, adding 
+music, or enhancing the video quality. The input to this tool should be a string, 
+representing the path of the video file.
+5. Background Removal: useful when you want to remove the background from an image 
+and create a transparent background. The input to this tool should be a string, 
+representing the path of the image file.
+6. 

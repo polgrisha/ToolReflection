@@ -1,0 +1,320 @@
+[   
+    
+    {
+        "Name": "WolframAlpha",
+        "Description": "Provides specific answers to questions using data and algorithms",
+        "Category": "Machine Learning",
+        "Authentication": {
+            "appid": "***"
+        },
+        "external_tools": [
+            "retrieval"
+        ],
+        "Documentation": "{\"openapi\": \"3.0.1\", \"info\": {\"title\": \"Wolfram Alpha Short Answers API\", \"version\": \"1.0.0\", \"description\": \"API to query Wolfram Alpha for short answers\"}, \"servers\": [{\"url\": \"http://api.wolframalpha.com/v1\"}], \"paths\": {\"/result\": {\"get\": {\"summary\": \"Get short answer from Wolfram Alpha\", \"description\": \"Use this endpoint to query Wolfram Alpha and get a short answer to your question.\", \"parameters\": [{\"name\": \"appid\", \"in\": \"query\", \"required\": true, \"schema\": {\"type\": \"string\"}, \"description\": \"Your Wolfram Alpha API AppID\"}, {\"name\": \"i\", \"in\": \"query\", \"required\": true, \"schema\": {\"type\": \"string\"}, \"description\": \"The URL-encoded input for your query\"}, {\"name\": \"units\", \"in\": \"query\", \"required\": false, \"schema\": {\"type\": \"string\", \"enum\": [\"metric\", \"imperial\"]}, \"description\": \"Select what system of units to use for measurements and quantities (either 'metric' or 'imperial'). Defaults to location-based unit selection.\"}, {\"name\": \"timeout\", \"in\": \"query\", \"required\": false, \"schema\": {\"type\": \"integer\", \"format\": \"int32\"}, \"description\": \"The maximum amount of time (in seconds) allowed to process a query. Defaults to 5 seconds.\"}], \"responses\": {\"200\": {\"description\": \"Successful response with short answer\", \"content\": {\"text/plain\": {\"schema\": {\"type\": \"string\"}}}}, \"400\": {\"description\": \"Bad Request - The API did not find an input parameter while parsing\"}, \"501\": {\"description\": \"Not Implemented - The given input value cannot be interpreted by the API\"}, \"default\": {\"description\": \"Unexpected error occurred\", \"content\": {\"text/plain\": {\"schema\": {\"type\": \"string\"}}}}}}}}}",
+        "NLDocumentation": "result_get: Get short answer from Wolfram Alpha\nParameters: {\"appid\": \"Required. string. Your Wolfram Alpha API AppID.\", \"i\": \"Required. string. The URL-encoded input for your query.\", \"units\": \"string. One of: [metric, imperial]. Select what system of units to use for measurements and quantities (either 'metric' or 'imperial'). Defaults to location-based unit selection.\", \"timeout\": \"integer. The maximum amount of time (in seconds) allowed to process a query. Defaults to 5 seconds.\"}\nOutput: Successful response with short answer.\n - Format: text/plain\n - Structure: \n",
+        "Function_Description": {
+            "result_get": "Get short answer from Wolfram Alpha\nParameters: {\"appid\": \"Required. string. Your Wolfram Alpha API AppID.\", \"i\": \"Required. string. The URL-encoded input for your query.\", \"units\": \"string. One of: [metric, imperial]. Select what system of units to use for measurements and quantities (either 'metric' or 'imperial'). Defaults to location-based unit selection.\", \"timeout\": \"integer. The maximum amount of time (in seconds) allowed to process a query. Defaults to 5 seconds.\"}\nOutput: Successful response with short answer.\n - Format: text/plain\n - Structure:",
+            "components": ""
+        },
+        "Function_Projection": {
+            "result_get": [
+                "/result",
+                "get"
+            ]
+        },
+        "Instructions": [
+            "Can you find the current temperature in New York City in Fahrenheit using the weather API?",
+            "Please help me calculate the square root of 625 using the math API.",
+            "I need to convert 5 miles to kilometers. Can you use the unit conversion API to help me with that?",
+            "Could you check the population of Tokyo for me using the demographics API?",
+            "I want to know the capital city of Australia. Can you use the geography API to find that out?",
+            "Hey, I'm trying to help my daughter with her homework and we're stuck on this math problem. Can you find out what the square root of 256 is?",
+            "I'm working on a science project and I need to know how many moons Jupiter has. Can you look that up for me?",
+            "I'm planning a trip to Paris and I'm curious about the weather. Can you find out what the average temperature is in Paris in July?",
+            "I'm doing a presentation on famous scientists. Can you find out when Albert Einstein was born?",
+            "I'm trying to lose weight and I'm counting calories. Can you tell me how many calories are in a medium-sized apple?",
+            "I'm writing a report on the solar system and I need some information. Can you tell me the diameter of Mars and the distance between Mars and Earth?",
+            "I'm trying to eat healthier and I need to know the nutritional value of some foods. Can you tell me how many calories are in an apple and a banana?",
+            "I'm planning a road trip and I need to calculate the distance. Can you tell me the distance from Los Angeles to New York by car? Also, can you tell me how long it would take to drive that distance?"
+        ],
+        "Golden_Answers": [
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"current temperature in New York City in Fahrenheit\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"the square root of 625\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"convert 5 miles to kilometers\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"the population of Tokyo\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"the capital city of Australia\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"the square root of 256\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"how many moons Jupiter has\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"what the average temperature is in Paris in July\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"when Albert Einstein was born\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"how many calories are in a medium-sized apple\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"the diameter of Mars\"}"
+                },
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"the distance between Mars and Earth\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"how many calories are in an apple\"}"
+                },
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"how many calories are in a banana\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"the distance from Los Angeles to New York by car\"}"
+                },
+                {
+                    "Action": "result_get",
+                    "Action_Input": "{\"appid\": \"LQGE4R-VPE825U26W\", \"i\": \"how long it would take to drive from Los Angeles to New York by car\"}"
+                }
+            ]
+        ]
+    },
+    {
+        "Name": "Nager.Date",
+        "Description": "Public holidays for more than 90 countries",
+        "Category": "Calendar",
+        "Authentication": {},
+        "external_tools": [
+            "retrieval"
+        ],
+        "Documentation": "{\"openapi\": \"3.0.1\", \"info\": {\"title\": \"Nager.Date API - V3\", \"description\": \"Nager.Date is open source software. If you would like to support the project you can award a GitHub star \\u2b50 or much better <a href='https://github.com/sponsors/nager'>start a sponsorship</a>\", \"contact\": {\"name\": \"Nager.Date on GitHub\", \"url\": \"https://github.com/nager/Nager.Date\"}, \"license\": {\"name\": \"MIT License\", \"url\": \"https://github.com/nager/Nager.Date/blob/master/LICENSE.md\"}, \"version\": \"v3\"}, \"servers\": [{\"url\": \"https://date.nager.at/\"}], \"paths\": {\"/api/v3/CountryInfo/{countryCode}\": {\"get\": {\"tags\": [\"Country\"], \"summary\": \"Get country info for the given country\", \"operationId\": \"CountryCountryInfo\", \"parameters\": [{\"name\": \"countryCode\", \"description\": \"Two-character represented country code. For instance, CN or cn represents China.\", \"in\": \"path\", \"required\": true, \"style\": \"simple\", \"explode\": false, \"schema\": {\"type\": \"string\"}}], \"responses\": {\"200\": {\"description\": \"Success\", \"content\": {\"text/plain\": {\"schema\": {\"$ref\": \"#/components/schemas/CountryInfoDto\"}}, \"application/json\": {\"schema\": {\"$ref\": \"#/components/schemas/CountryInfoDto\"}}, \"text/json\": {\"schema\": {\"$ref\": \"#/components/schemas/CountryInfoDto\"}}}}}}}, \"/api/v3/AvailableCountries\": {\"get\": {\"tags\": [\"Country\"], \"summary\": \"Get all available countries\", \"operationId\": \"CountryAvailableCountries\", \"responses\": {\"200\": {\"description\": \"Success\", \"content\": {\"text/plain\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/CountryV3Dto\"}}}, \"application/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/CountryV3Dto\"}}}, \"text/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/CountryV3Dto\"}}}}}}}}, \"/api/v3/LongWeekend/{year}/{countryCode}\": {\"get\": {\"tags\": [\"LongWeekend\"], \"summary\": \"Get long weekends for a given country\", \"operationId\": \"LongWeekendLongWeekend\", \"parameters\": [{\"name\": \"year\", \"in\": \"path\", \"required\": true, \"style\": \"simple\", \"explode\": false, \"schema\": {\"type\": \"integer\", \"format\": \"int32\"}}, {\"name\": \"countryCode\", \"in\": \"path\", \"description\": \"Two-character represented country code. For instance, CN or cn represents China.\", \"required\": true, \"style\": \"simple\", \"explode\": false, \"schema\": {\"type\": \"string\"}}], \"responses\": {\"200\": {\"description\": \"Success\", \"content\": {\"text/plain\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/LongWeekendV3Dto\"}}}, \"application/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/LongWeekendV3Dto\"}}}, \"text/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/LongWeekendV3Dto\"}}}}}}}}, \"/api/v3/PublicHolidays/{year}/{countryCode}\": {\"get\": {\"tags\": [\"PublicHoliday\"], \"summary\": \"Get public holidays\", \"operationId\": \"PublicHolidayPublicHolidaysV3\", \"parameters\": [{\"name\": \"year\", \"in\": \"path\", \"required\": true, \"style\": \"simple\", \"explode\": false, \"schema\": {\"type\": \"integer\", \"format\": \"int32\"}}, {\"name\": \"countryCode\", \"in\": \"path\", \"description\": \"Two-character represented country code. For instance, CN or cn represents China.\", \"required\": true, \"style\": \"simple\", \"explode\": false, \"schema\": {\"type\": \"string\"}}], \"responses\": {\"200\": {\"description\": \"Public holidays\", \"content\": {\"text/plain\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayV3Dto\"}}}, \"application/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayV3Dto\"}}}, \"text/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayV3Dto\"}}}}}, \"400\": {\"description\": \"Validation failure\"}, \"404\": {\"description\": \"CountryCode is unknown\"}}}}, \"/api/v3/IsTodayPublicHoliday/{countryCode}\": {\"get\": {\"tags\": [\"PublicHoliday\"], \"summary\": \"Is today a public holiday\", \"description\": \"The calculation is made on the basis of UTC time to adjust the time please use the offset.<br />\\r\\nThis is a special endpoint for `curl`<br /><br />\\r\\n200 = Today is a public holiday<br />\\r\\n204 = Today is not a public holiday<br /><br />\\r\\n`STATUSCODE=$(curl --silent --output /dev/stderr --write-out \\\"%{http_code}\\\" https://date.nager.at/Api/v2/IsTodayPublicHoliday/AT)`<br /><br />\\r\\n`if [ $STATUSCODE -ne 200 ]; then # error handling; fi`\", \"operationId\": \"PublicHolidayIsTodayPublicHoliday\", \"parameters\": [{\"name\": \"countryCode\", \"in\": \"path\", \"description\": \"Two-character represented country code. For instance, CN or cn represents China.\", \"required\": true, \"style\": \"simple\", \"explode\": false, \"schema\": {\"type\": \"string\"}}, {\"name\": \"countyCode\", \"in\": \"query\", \"required\": false, \"style\": \"form\", \"explode\": true, \"schema\": {\"type\": \"string\"}}, {\"name\": \"offset\", \"in\": \"query\", \"description\": \"utc timezone offset\", \"required\": false, \"style\": \"form\", \"explode\": true, \"schema\": {\"maximum\": 12, \"minimum\": -12, \"type\": \"integer\", \"format\": \"int32\", \"default\": 0}}], \"responses\": {\"200\": {\"description\": \"Today is a public holiday\"}, \"204\": {\"description\": \"Today is not a public holiday\"}, \"400\": {\"description\": \"Validation failure\"}, \"404\": {\"description\": \"CountryCode is unknown\"}}}}, \"/api/v3/NextPublicHolidays/{countryCode}\": {\"get\": {\"tags\": [\"PublicHoliday\"], \"summary\": \"Returns the upcoming public holidays for the next 365 days for the given country\", \"operationId\": \"PublicHolidayNextPublicHolidays\", \"parameters\": [{\"name\": \"countryCode\", \"in\": \"path\", \"description\": \"Two-character represented country code. For instance, CN or cn represents China.\", \"required\": true, \"style\": \"simple\", \"explode\": false, \"schema\": {\"type\": \"string\"}}], \"responses\": {\"200\": {\"description\": \"Success\", \"content\": {\"text/plain\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayV3Dto\"}}}, \"application/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayV3Dto\"}}}, \"text/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayV3Dto\"}}}}}}}}, \"/api/v3/NextPublicHolidaysWorldwide\": {\"get\": {\"tags\": [\"PublicHoliday\"], \"summary\": \"Returns the upcoming public holidays for the next 7 days\", \"operationId\": \"PublicHolidayNextPublicHolidaysWorldwide\", \"responses\": {\"200\": {\"description\": \"Success\", \"content\": {\"text/plain\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayV3Dto\"}}}, \"application/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayV3Dto\"}}}, \"text/json\": {\"schema\": {\"type\": \"array\", \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayV3Dto\"}}}}}}}}, \"/api/v3/Version\": {\"get\": {\"tags\": [\"Version\"], \"summary\": \"Get version of the used Nager.Date library\", \"operationId\": \"VersionGetVersion\", \"responses\": {\"200\": {\"description\": \"Success\", \"content\": {\"text/plain\": {\"schema\": {\"$ref\": \"#/components/schemas/VersionInfoDto\"}}, \"application/json\": {\"schema\": {\"$ref\": \"#/components/schemas/VersionInfoDto\"}}, \"text/json\": {\"schema\": {\"$ref\": \"#/components/schemas/VersionInfoDto\"}}}}}}}}, \"components\": {\"schemas\": {\"CountryInfoDto\": {\"type\": \"object\", \"properties\": {\"commonName\": {\"type\": \"string\", \"description\": \"CommonName\", \"nullable\": true}, \"officialName\": {\"type\": \"string\", \"description\": \"OfficialName\", \"nullable\": true}, \"countryCode\": {\"type\": \"string\", \"description\": \"Two-character represented country code. For instance, CN or cn represents China.\", \"nullable\": true}, \"region\": {\"type\": \"string\", \"description\": \"Region\", \"nullable\": true}, \"borders\": {\"type\": \"array\", \"description\": \"Country Borders\", \"nullable\": true, \"items\": {\"$ref\": \"#/components/schemas/CountryInfoDto\"}}}, \"additionalProperties\": false, \"description\": \"CountryInfo Dto\"}, \"CountryV3Dto\": {\"type\": \"object\", \"properties\": {\"countryCode\": {\"type\": \"string\", \"nullable\": true}, \"name\": {\"type\": \"string\", \"nullable\": true}}, \"additionalProperties\": false, \"description\": \"Country\"}, \"LongWeekendV3Dto\": {\"type\": \"object\", \"properties\": {\"startDate\": {\"type\": \"string\", \"description\": \"StartDate\", \"format\": \"date-time\"}, \"endDate\": {\"type\": \"string\", \"description\": \"EndDate\", \"format\": \"date-time\"}, \"dayCount\": {\"type\": \"integer\", \"description\": \"DayCount\", \"format\": \"int32\"}, \"needBridgeDay\": {\"type\": \"boolean\", \"description\": \"NeedBridgeDay\"}}, \"additionalProperties\": false, \"description\": \"Long Weekend\"}, \"PublicHolidayType\": {\"type\": \"string\", \"enum\": [\"Public\", \"Bank\", \"School\", \"Authorities\", \"Optional\", \"Observance\"]}, \"PublicHolidayV3Dto\": {\"type\": \"object\", \"properties\": {\"date\": {\"type\": \"string\", \"description\": \"The date\", \"format\": \"date\"}, \"localName\": {\"type\": \"string\", \"description\": \"Local name\", \"nullable\": true}, \"name\": {\"type\": \"string\", \"description\": \"English name\", \"nullable\": true}, \"countryCode\": {\"type\": \"string\", \"description\": \"ISO 3166-1 alpha-2\", \"nullable\": true}, \"fixed\": {\"type\": \"boolean\", \"description\": \"Is this public holiday every year on the same date\"}, \"global\": {\"type\": \"boolean\", \"description\": \"Is this public holiday in every county (federal state)\"}, \"counties\": {\"type\": \"array\", \"description\": \"ISO-3166-2 - Federal states\", \"nullable\": true, \"items\": {\"type\": \"string\"}}, \"launchYear\": {\"type\": \"integer\", \"description\": \"The launch year of the public holiday\", \"format\": \"int32\", \"nullable\": true}, \"types\": {\"type\": \"array\", \"description\": \"A list of types the public holiday it is valid\", \"nullable\": true, \"items\": {\"$ref\": \"#/components/schemas/PublicHolidayType\"}}}, \"additionalProperties\": false, \"description\": \"Public Holiday\"}, \"VersionInfoDto\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\", \"nullable\": true}, \"version\": {\"type\": \"string\", \"nullable\": true}}, \"additionalProperties\": false}}}}",
+        "NLDocumentation": "CountryCountryInfo: Get country info for the given country\nParameters: {\"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\"}\nOutput: Success.\n - Format: text/plain\n - Structure: #CountryInfoDto\nCountryAvailableCountries: Get all available countries\nParameters: {}\nOutput: Success.\n - Format: text/plain\n - Structure: Array[#CountryV3Dto]\nLongWeekendLongWeekend: Get long weekends for a given country\nParameters: {\"year\": \"Required. integer. \", \"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\"}\nOutput: Success.\n - Format: text/plain\n - Structure: Array[#LongWeekendV3Dto]\nPublicHolidayPublicHolidaysV3: Get public holidays\nParameters: {\"year\": \"Required. integer. \", \"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\"}\nOutput: Public holidays.\n - Format: text/plain\n - Structure: Array[#PublicHolidayV3Dto]\nPublicHolidayIsTodayPublicHoliday: Is today a public holiday\nParameters: {\"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\", \"countyCode\": \"string. \", \"offset\": \"integer. utc timezone offset.\"}\nOutput: Today is a public holiday.\n - Format: \n - Structure: \nPublicHolidayNextPublicHolidays: Returns the upcoming public holidays for the next 365 days for the given country\nParameters: {\"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\"}\nOutput: Success.\n - Format: text/plain\n - Structure: Array[#PublicHolidayV3Dto]\nPublicHolidayNextPublicHolidaysWorldwide: Returns the upcoming public holidays for the next 7 days\nParameters: {}\nOutput: Success.\n - Format: text/plain\n - Structure: Array[#PublicHolidayV3Dto]\nVersionGetVersion: Get version of the used Nager.Date library\nParameters: {}\nOutput: Success.\n - Format: text/plain\n - Structure: #VersionInfoDto\n\nThe detailed output format for the tools is outlined below:\n#CountryInfoDto: Object{commonName, officialName, countryCode, region, borders: Array[#CountryInfoDto]}\n#CountryV3Dto: Object{countryCode, name}\n#LongWeekendV3Dto: Object{startDate, endDate, dayCount, needBridgeDay}\n#PublicHolidayType: \n#PublicHolidayV3Dto: Object{date, localName, name, countryCode, fixed, global, counties: Array[string], launchYear, types: Array[#PublicHolidayType]}\n#VersionInfoDto: Object{name, version}\n",
+        "Function_Description": {
+            "CountryCountryInfo": "Get country info for the given country\nParameters: {\"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\"}\nOutput: Success.\n - Format: text/plain\n - Structure: #CountryInfoDto",
+            "CountryAvailableCountries": "Get all available countries\nParameters: {}\nOutput: Success.\n - Format: text/plain\n - Structure: Array[#CountryV3Dto]",
+            "LongWeekendLongWeekend": "Get long weekends for a given country\nParameters: {\"year\": \"Required. integer. \", \"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\"}\nOutput: Success.\n - Format: text/plain\n - Structure: Array[#LongWeekendV3Dto]",
+            "PublicHolidayPublicHolidaysV3": "Get public holidays\nParameters: {\"year\": \"Required. integer. \", \"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\"}\nOutput: Public holidays.\n - Format: text/plain\n - Structure: Array[#PublicHolidayV3Dto]",
+            "PublicHolidayIsTodayPublicHoliday": "Is today a public holiday\nParameters: {\"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\", \"countyCode\": \"string. \", \"offset\": \"integer. utc timezone offset.\"}\nOutput: Today is a public holiday.\n - Format: \n - Structure:",
+            "PublicHolidayNextPublicHolidays": "Returns the upcoming public holidays for the next 365 days for the given country\nParameters: {\"countryCode\": \"Required. string. Two-character represented country code. For instance, CN or cn represents China.\"}\nOutput: Success.\n - Format: text/plain\n - Structure: Array[#PublicHolidayV3Dto]",
+            "PublicHolidayNextPublicHolidaysWorldwide": "Returns the upcoming public holidays for the next 7 days\nParameters: {}\nOutput: Success.\n - Format: text/plain\n - Structure: Array[#PublicHolidayV3Dto]",
+            "VersionGetVersion": "Get version of the used Nager.Date library\nParameters: {}\nOutput: Success.\n - Format: text/plain\n - Structure: #VersionInfoDto",
+            "components": "The detailed output format for the tools is outlined below:\n#CountryInfoDto: Object{commonName, officialName, countryCode, region, borders: Array[#CountryInfoDto]}\n#CountryV3Dto: Object{countryCode, name}\n#LongWeekendV3Dto: Object{startDate, endDate, dayCount, needBridgeDay}\n#PublicHolidayType: \n#PublicHolidayV3Dto: Object{date, localName, name, countryCode, fixed, global, counties: Array[string], launchYear, types: Array[#PublicHolidayType]}\n#VersionInfoDto: Object{name, version}"
+        },
+        "Function_Projection": {
+            "CountryCountryInfo": [
+                "/api/v3/CountryInfo/{countryCode}",
+                "get"
+            ],
+            "CountryAvailableCountries": [
+                "/api/v3/AvailableCountries",
+                "get"
+            ],
+            "LongWeekendLongWeekend": [
+                "/api/v3/LongWeekend/{year}/{countryCode}",
+                "get"
+            ],
+            "PublicHolidayPublicHolidaysV3": [
+                "/api/v3/PublicHolidays/{year}/{countryCode}",
+                "get"
+            ],
+            "PublicHolidayIsTodayPublicHoliday": [
+                "/api/v3/IsTodayPublicHoliday/{countryCode}",
+                "get"
+            ],
+            "PublicHolidayNextPublicHolidays": [
+                "/api/v3/NextPublicHolidays/{countryCode}",
+                "get"
+            ],
+            "PublicHolidayNextPublicHolidaysWorldwide": [
+                "/api/v3/NextPublicHolidaysWorldwide",
+                "get"
+            ],
+            "VersionGetVersion": [
+                "/api/v3/Version",
+                "get"
+            ]
+        },
+        "Instructions": [
+            "Can you check if today is a public holiday in China?",
+            "Get the country info for China.",
+            "Get the list of all available countries for public holiday information.",
+            "I want to know the version of the Nager.Date library being used. Can you fetch that for me?",
+            "I need to find out if there are any long weekends in the United States in 2024. Can you help me with that?",
+            "Find out the next public holidays for the Great Britain.",
+            "I'm curious about the public holidays in Australia in 2023. Can you fetch the list for me?",
+            "Get the upcoming public holidays worldwide for the next 7 days.",
+            "I'm planning a trip to Japan next year. Can you find out if there are any long weekends in Japan in 2023? It would be great to align my trip with a long weekend.",
+            "I'm curious about the public holidays in different countries. Could you show me the public holidays for the next week worldwide?",
+            "I'm working on a project about different countries. Can you provide me with information about France, such as its official name, region, and neighboring countries?",
+            "I'm interested in knowing the upcoming public holidays in Germany for the next year. Could you fetch that information for me?",
+            "I'm creating a calendar for my international team. Can you help me find the public holidays in the USA for 2023?",
+            "I'm planning a road trip across Europe. Can you provide me with information about Italy, including its common name, official name, and the countries it shares borders with?",
+            "Can you help me plan my next vacation by checking the public holidays in Japan and Germany for the next year? I want to make sure I don't miss any important dates.",
+            "Hey, I'm curious about the holidays in different countries. Can you compare the number of public holidays in Canada, and Mexico for 2023?",
+            "I'm planning a surprise visit to my friend in Germany. I need to know when the next long weekend of the year 2023 is coming up, so I can plan my trip."
+        ],
+        "Golden_Answers": [
+            [
+                {
+                    "Action": "PublicHolidayIsTodayPublicHoliday",
+                    "Action_Input": "{\"countryCode\": \"CN\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "CountryCountryInfo",
+                    "Action_Input": "{\"countryCode\": \"CN\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "CountryAvailableCountries",
+                    "Action_Input": "{}"
+                }
+            ],
+            [
+                {
+                    "Action": "VersionGetVersion",
+                    "Action_Input": "{}"
+                }
+            ],
+            [
+                {
+                    "Action": "LongWeekendLongWeekend",
+                    "Action_Input": "{\"year\": 2024, \"countryCode\": \"US\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "PublicHolidayNextPublicHolidays",
+                    "Action_Input": "{\"countryCode\": \"GB\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "PublicHolidayPublicHolidaysV3",
+                    "Action_Input": "{\"year\": 2023, \"countryCode\": \"AU\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "PublicHolidayNextPublicHolidaysWorldwide",
+                    "Action_Input": "{}"
+                }
+            ],
+            [
+                {
+                    "Action": "LongWeekendLongWeekend",
+                    "Action_Input": "{\"year\": 2023, \"countryCode\": \"JP\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "PublicHolidayNextPublicHolidaysWorldwide",
+                    "Action_Input": "{}"
+                }
+            ],
+            [
+                {
+                    "Action": "CountryCountryInfo",
+                    "Action_Input": "{\"countryCode\": \"FR\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "PublicHolidayNextPublicHolidays",
+                    "Action_Input": "{\"countryCode\": \"DE\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "PublicHolidayPublicHolidaysV3",
+                    "Action_Input": "{\"year\": 2023, \"countryCode\": \"US\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "CountryCountryInfo",
+                    "Action_Input": "{\"countryCode\": \"IT\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "PublicHolidayNextPublicHolidays",
+                    "Action_Input": "{\"countryCode\": \"JP\"}"
+                },
+                {
+                    "Action": "PublicHolidayNextPublicHolidays",
+                    "Action_Input": "{\"countryCode\": \"DE\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "PublicHolidayPublicHolidaysV3",
+                    "Action_Input": "{\"year\": 2023, \"countryCode\": \"CA\"}"
+                },
+                {
+                    "Action": "PublicHolidayPublicHolidaysV3",
+                    "Action_Input": "{\"year\": 2023, \"countryCode\": \"MX\"}"
+                }
+            ],
+            [
+                {
+                    "Action": "LongWeekendLongWeekend",
+                    "Action_Input": "{\"year\": 2023, \"countryCode\": \"DE\"}"
+                }
+            ]
+        ]
+    }
+]

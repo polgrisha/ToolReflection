@@ -1,0 +1,23 @@
+Please generate instruction for each of the given tools.
+Each tool is defined as "<Tool Name>: <usage scenario>"
+1. Speech Recognition: useful when you want to recognize speech from a microphone 
+or audio file. The input to this tool should be an audio file path or a microphone 
+input.
+2. Object Tracking in Image: useful when you want to track the position of an object 
+in an image across multiple frames. The input to this tool should be a string, 
+representing the path of the image file sequence.
+3. Audio Speed Changer: useful when you want to change the speed of an audio file. 
+The input to this tool should be a string, representing the path of the audio file, 
+and another string, representing the new speed.
+4. Video Editing: useful when you want to edit a video by trimming, cropping, adding 
+music, or enhancing the video quality. The input to this tool should be a string, 
+representing the path of the video file.
+5. Background Removal: useful when you want to remove the background from an image 
+and create a transparent background. The input to this tool should be a string, 
+representing the path of the image file.
+
+Here is an example for the tool "Video Splitter" -- "Divide the video located at 
+/path/to/video.mp4 into 10-second intervals.", 
+[Video Splitter, "/path/to/video.mp4", "10 seconds"]" 
+Try not repeating the words from tool description, where possible.
+Provide diverse instructions.
