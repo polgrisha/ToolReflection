@@ -1,0 +1,21 @@
+# OS / editor junk
+.DS_Store
+._*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Credentials
+.env
+OPENAI_KEY
+
+# Local experiment artifacts (kept locally, not published)
+ToolAlpaca/eval_generations/
+ToolAlpaca/eval_results/
+ToolAlpaca/generations_toolalpaca/
+ToolAlpaca/notebooks/find_examples_toolalpaca.ipynb
+ToolAlpaca/data/eval_real_subscriptions.json
+ToolAlpaca/data/eval_real_test.json
+ToolAlpaca/data/examples_corrections_from_train_toolalpaca.json
+ToolAlpaca/data/test_generations_train_part_1_model_trained_on_half_train.json
+ToolAlpaca/data/test_generations_val_part_1_model_trained_on_half_train.json

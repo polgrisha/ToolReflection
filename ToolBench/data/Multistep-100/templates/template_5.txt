@@ -1,0 +1,10 @@
+I weigh [weight] pounds and I'm [height_feet] feet tall. What is my Body Mass Index?
+I weigh [weight] pounds and I'm [height_feet] feet tall. Can you calculate my BMI for me?"
+I'm [weight] pounds and [height_feet] feet tall. What's my BMI?"
+I weigh [weight] and I'm [height_feet] tall. How do I calculate my BMI?"
+I'm trying to figure out my BMI. I weigh [weight] pounds and I'm [height_feet] feet tall. Can you help me?"
+I'm [weight] pounds and [height_feet] feet tall. Can you tell me my BMI?"
+I'm trying to lose weight and I need to know my BMI. I weigh [weight] pounds and I'm [height_feet] feet tall. Can you help me?"
+I'm [weight] pounds and [height_feet] feet tall. How can I calculate my Body Mass Index?
+I'm curious about my BMI. I weigh [weight] pounds and measure [height_feet] feet tall. Can you help me out?
+I recently started exercising and want to check my progress. My current weight is [weight] pounds, and I'm [height_feet] feet tall. How do I calculate my BMI?

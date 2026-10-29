@@ -1,0 +1,10 @@
+I'm planning travel from [city&1] state [state&1] to [city&2] city, which is located in [state&2], USA, could you provide me the distance between this two cities in miles and then convert it to [metric_length]?
+I'm planning a trip from [city&1], [state&1] to [city&2], [state&2] in the US. Can you tell me the distance between these two cities in miles and convert it to [metric_length] for me?
+I'm looking to travel from [city&1], [state&1] to [city&2], [state&2] and I need to know the distance between them in miles. Could you also convert it to [metric_length] for me?
+I'm planning a road trip from [city&1], [state&1] to [city&2], [state&2] and I'd like to know the mileage between the two cities. Can you also convert it to [metric_length]?
+I'm flying from [city&1], [state&1] to [city&2], [state&2] and I'm wondering how far apart these two cities are in miles. Could you also convert it to [metric_length] for me?
+I'm traveling from [city&1], [state&1] to [city&2], [state&2] by air and I'm wondering how many miles apart these two cities are. Could you also convert it to [metric_length] for me?
+I'm planning a trip from [city&1], [state&1] to [city&2], [state&2] and I'd like to know the distance between these two cities in miles. Could you also convert it to [metric_length] for me?
+I'm interested in finding out the distance between [city&1], [state&1] and [city&2], [state&2]. Could you tell me how many miles apart they are? And could you also convert it to [metric_length]?
+I'm booking a flight from [city&1], [state&1] to [city&2], [state&2] and I'd like to know the distance between the two airports in miles. Could you also convert it to [metric_length]?
+I'm looking to drive from [city&1], [state&1] to [city&2], [state&2] and I need to know the distance between the two cities in miles. Could you also convert it to meters?

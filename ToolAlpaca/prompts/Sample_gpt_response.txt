@@ -1,0 +1,14 @@
+Status Code: 200                                                                                                                 
+Response:                                                                                                                        
+{                                                                                                                                
+  "status": "valid",                                                                                                             
+  "standardizedAddress": {                                                                                                       
+    "addressLine1": "321 Maple Dr",                                                                                              
+    "addressLine2": "Apt 12C",                                                                                                   
+    "city": "Houston",                                                                                                           
+    "state": "TX",                                                                                                               
+    "zipCode": "77002"                                                                                                           
+  }                                                                                                                              
+}                                                                                                                                
+Explanation: The provided address is valid and deliverable. The standardized address matches the input address, indicating that i
+t already meets USPS standards and does not require any changes.

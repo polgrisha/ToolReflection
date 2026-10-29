@@ -1,0 +1,10 @@
+Obtain the movement reserve of [watch_brandName] [watch_family] [watch_model] watch and conver it from hours in seconds.
+What is movement reserve of [watch_brandName] [watch_family] [watch_model] watches in seconds? 
+Can you provide me with the power reserve information for the [watch_brandName] [watch_family] [watch_model] watch? I need to convert it from hours to seconds.
+How long can the [watch_brandName] [watch_family] [watch_model] watch run without needing to be rewound or replaced? I want to convert the time from hours to seconds.
+What is the energy reserve capacity of the [watch_brandName] [watch_family] [watch_model] watch? I need to change the unit from hours to seconds.
+Is there a way to determine how many seconds the [watch_brandName] [watch_family] [watch_model] watch can function before requiring another wind?
+Could you tell me the duration of the power supply for the [watch_brandName] [watch_family] [watch_model] watch? I would like to express it in seconds rather than hours.
+Can you tell me how long the [watch_brandName] [watch_family] [watch_model] watches can run without being wound in seconds?
+How many seconds do the [watch_brandName] [watch_family] [watch_model] watches have power reserve?
+Could you provide me with details on the movement reserve for the [watch_brandName] [watch_family] [watch_model] timepieces?

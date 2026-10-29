@@ -1,0 +1,251 @@
+	weight	height	watch_brandName	watch_family	watch_model	artist	city	state	metric_length	h	s	l	height_feet	track_id	album_id
+0	50.0	1.5	A. Lange & Söhne	Cabaret	107.031	Omarion	Alexander City	Alabama	km	0	0.0	0.0	4.0	13131048	1205244
+1	55.0	1.55	A. Lange & Söhne	Cabaret	107.032	Daughtry	Andalusia	Alabama	m	1	1.0	1.0	5.0	551209	72429
+2	60.0	1.6	A. Lange & Söhne	Cabaret	118.032	Labrinth	Anniston	Alabama		2	2.0	2.0	6.0	2169153	217023
+3	65.0	1.65	A. Lange & Söhne	Cabaret	703.025	Taylor Swift	Athens	Alabama		3	3.0	3.0	7.0	1786528127	326314867
+4	70.0	1.7	A. Lange & Söhne	Cabaret	703.032	The-Dream	Atmore	Alabama		4	4.0	4.0	8.0	15588507	1440921
+5	75.0	1.75	A. Lange & Söhne	Lange 1	101.002	Jacquees	Auburn	Alabama		5	5.0	5.0	9.0	1571809102	276632882
+6	80.0	1.8	A. Lange & Söhne	Lange 1	101.005	Nilu	Bessemer	Alabama		6	6.0	6.0	10.0	7512195	692698
+7	85.0	1.85	A. Lange & Söhne	Lange 1	101.021	Shawty	Birmingham	Alabama		7	7.0	7.0		1724297957	311910987
+8	90.0	1.9	A. Lange & Söhne	Lange 1	101.022	Äyanna	Chickasaw	Alabama		8	8.0	8.0		13141480	1205943
+9	95.0	1.95	A. Lange & Söhne	Lange 1	101.025	Eminem	Clanton	Alabama		9	9.0	9.0		13129249	1205154
+10	100.0	2.0	A. Lange & Söhne	Lange 1	101.026	Genesis	Cullman	Alabama		10	10.0	10.0		2486241201	496823981
+11	105.0	2.05	A. Lange & Söhne	Lange 1	101.027	Ed Sheeran	Decatur	Alabama		11	11.0	11.0		795560022	117336052
+12	110.0	2.1	A. Lange & Söhne	Lange 1	101.029		Demopolis	Alabama		12	12.0	12.0		356952711	40986761
+13	115.0		A. Lange & Söhne	Lange 1	101.031		Dothan	Alabama		13	13.0	13.0		2256496917	434470997
+14	120.0		A. Lange & Söhne	Lange 1	101.032		Enterprise	Alabama		14	14.0	14.0		2455300555	488198915
+15	125.0		A. Lange & Söhne	Lange 1	101.033		Eufaula	Alabama		15	15.0	15.0		2487531491	497198021
+16	130.0		A. Lange & Söhne	Lange 1	101.035		Florence	Alabama		16	16.0	16.0		1262994282	211939382
+17	135.0		A. Lange & Söhne	Lange 1	101.039		Fort Payne	Alabama		17	17.0	17.0		2369219095	464835075
+18	140.0		Omega	Aqua Terra	2005.75.00		Gadsden	Alabama		18	18.0	18.0		2483675551	496079451
+19	145.0		Omega	Aqua Terra	2009.75.00		Greenville	Alabama		19	19.0	19.0		1639234592	291629482
+20	150.0		Omega	Aqua Terra	2102.30.00		Guntersville	Alabama		20	20.0	20.0		13130817	1205231
+21			Omega	Aqua Terra	2102.50.00		Huntsville	Alabama		21	21.0	21.0		1742536337	316429767
+22			Omega	Aqua Terra	2103.30.00		Jasper	Alabama		22	22.0	22.0		2378008235	467176215
+23			Omega	Aqua Terra	2103.50.00		Marion	Alabama		23	23.0	23.0		2185023617	415989307
+24			Omega	Aqua Terra	2104.30.00		Mobile	Alabama		24	24.0	24.0		13131065	1205244
+25			Omega	Aqua Terra	2104.50.00		Montgomery	Alabama		25	25.0	25.0		384369811	44763761
+26			Omega	Aqua Terra	2104.75.00		Opelika	Alabama		26	26.0	26.0		925106	104188
+27			Omega	Aqua Terra	2309.75.00		Ozark	Alabama		27	27.0	27.0		1171629	125398
+28							Phenix City	Alabama		28	28.0	28.0		2047662427	382760377
+29							Prichard	Alabama		29	29.0	29.0		1205019912	199266892
+30							Scottsboro	Alabama		30	30.0	30.0		2028530837	378300457
+31							Selma	Alabama		31	31.0	31.0		2953525	284017
+32							Sheffield	Alabama		32	32.0	32.0		1287697182	217897722
+33							Sylacauga	Alabama		33	33.0	33.0		1420454882	241145372
+34							Talladega	Alabama		34	34.0	34.0		1768119817	322401697
+35							Troy	Alabama		35	35.0	35.0		704415192	101921852
+36							Tuscaloosa	Alabama		36	36.0	36.0		545240152	71417022
+37							Tuscumbia	Alabama		37	37.0	37.0		2072690257	387210487
+38							Tuskegee	Alabama		38	38.0	38.0		1436192202	244947872
+39							Anchorage	Alaska		39	39.0	39.0		514913772	66050522
+40							Cordova	Alaska		40	40.0	40.0		6258400	572797
+41							Fairbanks	Alaska		41	41.0	41.0		966913372	149566862
+42							Haines	Alaska		42	42.0	42.0		1229776622	204559522
+43							Homer	Alaska		43	43.0	43.0		85142112	8582780
+44							Juneau	Alaska		44	44.0	44.0		439787902	53299872
+45							Ketchikan	Alaska		45	45.0	45.0		1726145067	312359397
+46							Kodiak	Alaska		46	46.0	46.0		1089087112	175212282
+47							Kotzebue	Alaska		47	47.0	47.0		68309538	6689468
+48							Nome	Alaska		48	48.0	48.0		6445484	593140
+49							Palmer	Alaska		49	49.0	49.0		815098652	120191072
+50							Seward	Alaska		50	50.0	50.0		1176437	125766
+51							Sitka	Alaska		51	51.0	51.0		547777242	71899442
+52							Skagway	Alaska		52	52.0	52.0		2473226681	493172891
+53							Valdez	Alaska		53	53.0	53.0		623715892	85606772
+54							Ajo	Arizona		54	54.0	54.0		886428	100558
+55							Avondale	Arizona		55	55.0	55.0		1522328782	265682752
+56							Bisbee	Arizona		56	56.0	56.0		1160957522	190019282
+57							Casa Grande	Arizona		57	57.0	57.0		1377629462	231394602
+58							Chandler	Arizona		58	58.0	58.0		2480094911	494996961
+59							Clifton	Arizona		59	59.0	59.0		1721538117	311134487
+60							Douglas	Arizona		60	60.0	60.0		1350660642	224598302
+61							Flagstaff	Arizona		61	61.0	61.0		2471423681	492739001
+62							Florence	Arizona		62	62.0	62.0		2010826107	374536057
+63							Gila Bend	Arizona		63	63.0	63.0		2386465105	469648645
+64							Glendale	Arizona		64	64.0	64.0		2449193995	486707025
+65							Globe	Arizona		65	65.0	65.0		1843935557	340568507
+66							Kingman	Arizona		66	66.0	66.0		2348913335	459291415
+67							Lake Havasu City	Arizona		67	67.0	67.0		1725376657	312179157
+68							Mesa	Arizona		68	68.0	68.0		910159722	137558242
+69							Nogales	Arizona		69	69.0	69.0		882296	100164
+70							Oraibi	Arizona		70	70.0	70.0		361098841	41485351
+71							Phoenix	Arizona		71	71.0	71.0		67404729	6592547
+72							Prescott	Arizona		72	72.0	72.0		79572032	7926808
+73							Scottsdale	Arizona		73	73.0	73.0		725620	86535
+74							Sierra Vista	Arizona		74	74.0	74.0		1115229	120064
+75							Tempe	Arizona		75	75.0	75.0		686849	82872
+76							Tombstone	Arizona		76	76.0	76.0		2472225731	492948941
+77							Tucson	Arizona		77	77.0	77.0		2473047781	493129851
+78							Walpi	Arizona		78	78.0	78.0		724234	86408
+79							Window Rock	Arizona		79	79.0	79.0		1368327112	229113492
+80							Winslow	Arizona		80	80.0	80.0		753286	89068
+81							Yuma	Arizona		81	81.0	81.0		549244982	72165622
+82							Arkadelphia	Arkansas		82	82.0	82.0		66991047	6552277
+83							Arkansas Post	Arkansas		83	83.0	83.0		943698422	144869972
+84							Batesville	Arkansas		84	84.0	84.0		77748367	7725818
+85							Benton	Arkansas		85	85.0	85.0		2473047881	493129851
+86							Blytheville	Arkansas		86	86.0	86.0		43863281	4310821
+87							Camden	Arkansas		87	87.0	87.0		2473047891	493129851
+88							Conway	Arkansas		88	88.0	88.0		2473047901	493129851
+89							Crossett	Arkansas		89	89.0	89.0		1720692087	310985597
+90							El Dorado	Arkansas		90	90.0	90.0		2473047831	493129851
+91							Fayetteville	Arkansas		91	91.0	91.0		2473047811	493129851
+92							Forrest City	Arkansas		92	92.0	92.0		1022504072	160951902
+93							Fort Smith	Arkansas		93	93.0	93.0		2473047821	493129851
+94							Harrison	Arkansas		94	94.0	94.0		552315	72512
+95							Helena	Arkansas		95	95.0	95.0		87675727	8851555
+96							Hope	Arkansas		96	96.0	96.0		123725784	12969940
+97							Hot Springs	Arkansas		97	97.0	97.0		1264689862	212340192
+98							Jacksonville	Arkansas		98	98.0	98.0		552317	72512
+99							Jonesboro	Arkansas		99	99.0	99.0		71605582	7036363
+100							Little Rock	Arkansas		100				82024112	8220574
+101							Magnolia	Arkansas		101				553046	72569
+102							Morrilton	Arkansas		102				70818067	6953207
+103							Newport	Arkansas		103				66925558	6546126
+104							North Little Rock	Arkansas		104				87675701	8851553
+105							Osceola	Arkansas		105				1030269072	162390622
+106							Pine Bluff	Arkansas		106				141334871	15251767
+107							Rogers	Arkansas		107				1149233332	187923372
+108							Searcy	Arkansas		108				15620902	1442957
+109							Stuttgart	Arkansas		109				553047	72569
+110							Van Buren	Arkansas		110				1454743942	249388782
+111							West Memphis	Arkansas		111				15620906	1442957
+112							Alameda	California		112				12237318	1124476
+113							Alhambra	California		113				1264696202	212341172
+114							Anaheim	California		114				3723262	349707
+115							Antioch	California		115				1149233312	187923372
+116							Arcadia	California		116				13140600	1205882
+117							Bakersfield	California		117				123725786	12969940
+118							Barstow	California		118				13148404	1206414
+119							Belmont	California		119				13144323	1206113
+120							Berkeley	California		120				1995864837	372144217
+121							Beverly Hills	California		121				2404463305	474581775
+122							Brea	California		122				90944585	9223095
+123							Buena Park	California		123				2473269241	493185411
+124							Burbank	California		124				21722131	2080031
+125							Calexico	California		125				73795934	7278231
+126							Calistoga	California		126				1369195882	229305292
+127							Carlsbad	California		127				1524765672	266311952
+128							Carmel	California		128				893004382	134394492
+129							Chico	California		129				705694432	102230192
+130							Chula Vista	California		130				4253197	395841
+131							Claremont	California		131				554623732	73161902
+132							Compton	California		132				84721609	8541465
+133							Concord	California		133				844377532	125000202
+134							Corona	California		134				2355142305	461042225
+135							Coronado	California		135				87912737	8877405
+136							Costa Mesa	California		136				1454719872	249386512
+137							Culver City	California		137				69058224	6767358
+138							Daly City	California		138				876962372	131576862
+139							Davis	California		139				1759680757	320599727
+140							Downey	California		140				2388507535	470207455
+141							El Centro	California		141				1485832002	256669862
+142							El Cerrito	California		142				1828980687	336946897
+143							El Monte	California		143				5786279	527811
+144							Escondido	California		144				921959412	140119072
+145							Eureka	California		145				12793244	1173937
+146							Fairfield	California		146				133105770	14168384
+147							Fontana	California		147				133098890	14167560
+148							Fremont	California		148				4469062	413579
+149							Fresno	California		149				2473226261	493172891
+150							Fullerton	California		150				834493112	123416212
+151							Garden Grove	California		151				1333536492	221597192
+152							Glendale	California		152				1564293372	275002282
+153							Hayward	California		153				133100758	14167724
+154							Hollywood	California		154				3058860	296551
+155							Huntington Beach	California		155				1473637652	253894082
+156							Indio	California		156				2269038607	437584137
+157							Inglewood	California		157				984760432	153152512
+158							Irvine	California		158				2213136617	422956667
+159							La Habra	California		159				133565606	14227860
+160							Laguna Beach	California		160				1666999932	298439642
+161							Lancaster	California		161				1856574817	344093307
+162							Livermore	California		162				1903025507	354154157
+163							Lodi	California		163				2466007955	491145825
+164							Lompoc	California		164				1386349692	42218611
+165							Long Beach	California		165				2310184005	448624185
+166							Los Angeles	California		166				1118866172	181610322
+167							Malibu	California		167				2228326177	427144247
+168							Martinez	California		168				2454823085	488058975
+169							Marysville	California		169				979042	108938
+170							Menlo Park	California		170				7553494	696883
+171							Merced	California		171				1572829	161245
+172							Modesto	California		172				626120	78302
+173							Monterey	California		173				1145140	122725
+174							Mountain View	California		174				76443647	7580262
+175							Napa	California		175				3482138	330068
+176							Needles	California		176				1433002022	244121902
+177							Newport Beach	California		177				4673735	430335
+178							Norwalk	California		178				2062025287	385043717
+179							Novato	California		179				2477002321	494049121
+180							Oakland	California		180				1656777432	295867722
+181							Oceanside	California		181				2472446271	493007221
+182							Ojai	California		182				1939687447	361798447
+183							Ontario	California		183				2118953377	399201497
+184							Orange	California		184				2483737141	496097811
+185							Oroville	California		185				556412792	73454022
+186							Oxnard	California		186				1780653287	325146797
+187							Pacific Grove	California		187				2086327587	390622077
+188							Palm Springs	California		188				1869796167	347140547
+189							Palmdale	California		189				1811673837	332404227
+190							Palo Alto	California		190				2426112	239091
+191							Pasadena	California		191				1667129642	298475242
+192							Petaluma	California		192				561855832	74434892
+193							Pomona	California		193				2449374905	486743225
+194							Port Hueneme	California		194				1151147	123339
+195							Rancho Cucamonga	California		195				2395982515	472280335
+196							Red Bluff	California		196				1860990547	345039647
+197							Redding	California		197				2397000745	472558115
+198							Redlands	California		198				2430344	239467
+199							Redondo Beach	California		199				2235881327	429150507
+200							Redwood City	California		200				1852410267	343067617
+201							Richmond	California		201				1554232012	272819282
+202							Riverside	California		202				712049302	103574322
+203							Roseville	California		203				1365985022	228464792
+204							Sacramento	California		204				2129935047	402129037
+205							Salinas	California		205				2328018705	453491955
+206							San Bernardino	California		206				1164095	124675
+207							San Clemente	California		207				2474853941	493606251
+208							San Diego	California		208				1993453887	371645417
+209							San Fernando	California		209				2223000137	425695607
+210							San Francisco	California		210				7562986	697807
+211							San Gabriel	California		211				1386356612	233425712
+212							San Jose	California		212				1353091932	225259442
+213							San Juan Capistrano	California		213				2147523427	406965397
+214							San Leandro	California		214				99036546	10134446
+215							San Luis Obispo	California		215				1253688062	209872762
+216							San Marino	California		216				2355140875	461041565
+217							San Mateo	California		217				6280814	574941
+218							San Pedro	California		218				2152806007	408377867
+219							San Rafael	California		219				882293	100164
+220							San Simeon	California		220				2473226121	493172891
+221							Santa Ana	California		221				634430482	87715652
+222							Santa Barbara	California		222				1577408	161755
+223							Santa Clara	California		223				2947346	286433
+224							Santa Clarita	California		224				2241443	224070
+225							Santa Cruz	California		225				2487491231	497187371
+226							Santa Monica	California		226				1362258382	227538332
+227							Santa Rosa	California		227				2010826057	374536057
+228							Sausalito	California		228				2140694037	405127037
+229							Simi Valley	California		229				2177721167	414350727
+230							Sonoma	California		230				88961199	8993173
+231							South San Francisco	California		231				2367209035	464258595
+232							Stockton	California		232				2389465595	470477045
+233							Sunnyvale	California		233				731718832	107481342
+234							Susanville	California		234				1872634217	347804807
+235							Thousand Oaks	California		235				2376904875	466975315
+236							Torrance	California		236				2480094241	494996961
+237							Turlock	California		237				7512095	692686
+238							Ukiah	California		238				1721538247	311134487
+239							Vallejo	California		239				6880988	635718
+240							Ventura	California		240				2472800431	493074031
+241							Victorville	California		241				2485278261	496521451
+242							Visalia	California		242				2024034997	377221887
+243							Walnut Creek	California		243				2469841385	492284355
+244							Watts	California		244				634477262	87723092
+245							West Covina	California		245				70584820	6929302
+246							Whittier	California		246				1955691537	364610367
+247							Woodland	California		247				979050	108938
+248							Yorba Linda	California		248				1572847	161245
+249							Yuba City	California		249				366445231	42218611

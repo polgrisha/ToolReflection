@@ -1,0 +1,286 @@
+[
+    {
+        "query": "Obtain the movement reserve of A. Lange & S\u00f6hne Cabaret 703.032 watch and conver it from hours in seconds.",
+        "api_list": [
+            {
+                "category_name": "Database",
+                "tool_name": "watch_database",
+                "api_name": "get_watches_by_brand_family_model",
+                "api_description": "Get Watches By Brand Family Model",
+                "required_parameters": [
+                    {
+                        "name": "brandName",
+                        "type": "string",
+                        "description": "",
+                        "default": "Omega"
+                    },
+                    {
+                        "name": "model",
+                        "type": "string",
+                        "description": "",
+                        "default": "2005.75.00"
+                    },
+                    {
+                        "name": "family",
+                        "type": "string",
+                        "description": "",
+                        "default": "Aqua Terra"
+                    }
+                ],
+                "optional_parameters": [],
+                "method": "GET"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Measurement Units Converter",
+                "api_name": "Convert from one unit of measure to another",
+                "api_description": "Convert efficiently and quickly between more than 50 of the most used units with a simple and intuitive conversion tool. At the output, you will get an answer with the conversion of your measurement units.",
+                "required_parameters": [
+                    {
+                        "name": "output_unit",
+                        "type": "STRING",
+                        "description": "",
+                        "default": "g"
+                    },
+                    {
+                        "name": "input_unit",
+                        "type": "STRING",
+                        "description": "",
+                        "default": "kg"
+                    },
+                    {
+                        "name": "value",
+                        "type": "NUMBER",
+                        "description": "",
+                        "default": "10"
+                    }
+                ],
+                "optional_parameters": [],
+                "method": "GET"
+            }
+        ],
+        "relevant APIs": [
+            [
+                "watch_database",
+                "get_watches_by_brand_family_model"
+            ],
+            [
+                "Measurement Units Converter",
+                "Convert from one unit of measure to another"
+            ]
+        ]
+    },
+    {
+        "query": "What is movement reserve of A. Lange & S\u00f6hne Cabaret 118.032 watches in seconds?",
+        "api_list": [
+            {
+                "category_name": "Database",
+                "tool_name": "watch_database",
+                "api_name": "get_watches_by_brand_family_model",
+                "api_description": "Get Watches By Brand Family Model",
+                "required_parameters": [
+                    {
+                        "name": "brandName",
+                        "type": "string",
+                        "description": "",
+                        "default": "Omega"
+                    },
+                    {
+                        "name": "model",
+                        "type": "string",
+                        "description": "",
+                        "default": "2005.75.00"
+                    },
+                    {
+                        "name": "family",
+                        "type": "string",
+                        "description": "",
+                        "default": "Aqua Terra"
+                    }
+                ],
+                "optional_parameters": [],
+                "method": "GET"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Measurement Units Converter",
+                "api_name": "Convert from one unit of measure to another",
+                "api_description": "Convert efficiently and quickly between more than 50 of the most used units with a simple and intuitive conversion tool. At the output, you will get an answer with the conversion of your measurement units.",
+                "required_parameters": [
+                    {
+                        "name": "output_unit",
+                        "type": "STRING",
+                        "description": "",
+                        "default": "g"
+                    },
+                    {
+                        "name": "input_unit",
+                        "type": "STRING",
+                        "description": "",
+                        "default": "kg"
+                    },
+                    {
+                        "name": "value",
+                        "type": "NUMBER",
+                        "description": "",
+                        "default": "10"
+                    }
+                ],
+                "optional_parameters": [],
+                "method": "GET"
+            }
+        ],
+        "relevant APIs": [
+            [
+                "watch_database",
+                "get_watches_by_brand_family_model"
+            ],
+            [
+                "Measurement Units Converter",
+                "Convert from one unit of measure to another"
+            ]
+        ]
+    },
+    {
+        "query": "Can you provide me with the power reserve information for the A. Lange & S\u00f6hne Lange 1 101.039 watch? I need to convert it from hours to seconds.",
+        "api_list": [
+            {
+                "category_name": "Database",
+                "tool_name": "watch_database",
+                "api_name": "get_watches_by_brand_family_model",
+                "api_description": "Get Watches By Brand Family Model",
+                "required_parameters": [
+                    {
+                        "name": "brandName",
+                        "type": "string",
+                        "description": "",
+                        "default": "Omega"
+                    },
+                    {
+                        "name": "model",
+                        "type": "string",
+                        "description": "",
+                        "default": "2005.75.00"
+                    },
+                    {
+                        "name": "family",
+                        "type": "string",
+                        "description": "",
+                        "default": "Aqua Terra"
+                    }
+                ],
+                "optional_parameters": [],
+                "method": "GET"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Measurement Units Converter",
+                "api_name": "Convert from one unit of measure to another",
+                "api_description": "Convert efficiently and quickly between more than 50 of the most used units with a simple and intuitive conversion tool. At the output, you will get an answer with the conversion of your measurement units.",
+                "required_parameters": [
+                    {
+                        "name": "output_unit",
+                        "type": "STRING",
+                        "description": "",
+                        "default": "g"
+                    },
+                    {
+                        "name": "input_unit",
+                        "type": "STRING",
+                        "description": "",
+                        "default": "kg"
+                    },
+                    {
+                        "name": "value",
+                        "type": "NUMBER",
+                        "description": "",
+                        "default": "10"
+                    }
+                ],
+                "optional_parameters": [],
+                "method": "GET"
+            }
+        ],
+        "relevant APIs": [
+            [
+                "watch_database",
+                "get_watches_by_brand_family_model"
+            ],
+            [
+                "Measurement Units Converter",
+                "Convert from one unit of measure to another"
+            ]
+        ]
+    },
+    {
+        "query": "How long can the Omega Aqua Terra 2104.50.00 watch run without needing to be rewound or replaced? I want to convert the time from hours to seconds.",
+        "api_list": [
+            {
+                "category_name": "Database",
+                "tool_name": "watch_database",
+                "api_name": "get_watches_by_brand_family_model",
+                "api_description": "Get Watches By Brand Family Model",
+                "required_parameters": [
+                    {
+                        "name": "brandName",
+                        "type": "string",
+                        "description": "",
+                        "default": "Omega"
+                    },
+                    {
+                        "name": "model",
+                        "type": "string",
+                        "description": "",
+                        "default": "2005.75.00"
+                    },
+                    {
+                        "name": "family",
+                        "type": "string",
+                        "description": "",
+                        "default": "Aqua Terra"
+                    }
+                ],
+                "optional_parameters": [],
+                "method": "GET"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Measurement Units Converter",
+                "api_name": "Convert from one unit of measure to another",
+                "api_description": "Convert efficiently and quickly between more than 50 of the most used units with a simple and intuitive conversion tool. At the output, you will get an answer with the conversion of your measurement units.",
+                "required_parameters": [
+                    {
+                        "name": "output_unit",
+                        "type": "STRING",
+                        "description": "",
+                        "default": "g"
+                    },
+                    {
+                        "name": "input_unit",
+                        "type": "STRING",
+                        "description": "",
+                        "default": "kg"
+                    },
+                    {
+                        "name": "value",
+                        "type": "NUMBER",
+                        "description": "",
+                        "default": "10"
+                    }
+                ],
+                "optional_parameters": [],
+                "method": "GET"
+            }
+        ],
+        "relevant APIs": [
+            [
+                "watch_database",
+                "get_watches_by_brand_family_model"
+            ],
+            [
+                "Measurement Units Converter",
+                "Convert from one unit of measure to another"
+            ]
+        ]
+    }
+]
